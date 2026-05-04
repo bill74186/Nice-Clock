@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2e2e44;
+    transition: 0.4s;
+}
+
+body.light {
+    background: #f0f2f5;
+}
+
+.gh {
+    position: fixed;
+    top: 7px;
+    left: 5px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.4s;
+}
+
+.gh svg {
+    width: 30px;
+    height: 30px;
+    fill: #efefef;
+}
+
+.gh.hide {
+    opacity: 0;
+}
+
+body.light .gh svg {
+    fill: #333333;
+}
+
+.set {
+    color: #efefef;
+    position: fixed;
+    top: 7px;
+    right: 5px;
+    z-index: 999;
+    display: flex;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    transition: 0.4s;
+}
+
+.set.hide {
+    opacity: 0;
+}
+
+body.light .set {
+    color: #333;
+}
+
+menu {
+    z-index: 999;
+    position: fixed;
+    top: 7px;
+    right: 5px;
+    list-style: none;
+    background: #353e54;
+    padding: 10px 14px;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+    min-width: 150px;
+}
+
+body.light menu {
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+menu.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    gap: 15px;
+}
+
+.txt {
+    color: #efefef;
+    font-size: 0.9em;
+    white-space: nowrap;
+    transition: 0.4s;
+}
+
+body.light .txt {
+    color: #333;
+}
+
+.btn {
+    width: 40px;
+    height: 20px;
+    background: #485470;
+    border-radius: 99px;
+    position: relative;
+    cursor: pointer;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #ff5e9a;
+    border-radius: 50%;
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%);
+    transition: 0.4s;
+}
+
+.btn.active::before {
+    background: #0bff8d;
+    left: 21px;
+}
+
+main {
+    position: relative;
+    color: #fff;
+    background: #2e2e44;
+    width: 425px;
+    padding: 20px 45px;
+    box-shadow: 0 5px 25px rgba(14, 21, 37, 0.8);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.4s;
+}
+
+body.light main {
+    background: #fff;
+    color: #333;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+main::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    bottom: -5px;
+    right: -5px;
+    background: linear-gradient(45deg, #24ff6d, #2f93f1, #ff5e9a);
+    background-size: 200% 200%;
+    z-index: -1;
+    filter: blur(40px);
+    animation: glow 10s infinite;
+}
+
+@keyframes glow {
+    0% { background-position: 0 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0 50%; }
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.h, .m {
+    font-size: 6.5em;
+    font-weight: 600;
+    line-height: 125px;
+    width: 125px;
+}
+
+.d {
+    font-size: 5em;
+    color: #929292;
+    transition: 0.4s;
+}
+
+body.light .d {
+    color: #666;
+}
+
+.h {
+    background: linear-gradient(90deg, #634dff, #5fd4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.m {
+    background: linear-gradient(90deg, #ff5e9e, #ffb960);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.ap, .s {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.ap {
+    transform: translateY(-20px);
+    background: linear-gradient(90deg, #f7b63f, #faf879);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s {
+    transform: translateY(16px);
+    background: linear-gradient(90deg, #24ff6d, #2f93f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 5px;
+    background: linear-gradient(90deg, #ae4af6, #ff98d1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.date span {
+    margin-left: 8px;
+}
