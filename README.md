@@ -1,7 +1,7 @@
 <div align="center">
 
-# 漂亮闹钟
-一个由bill74186制作的闹钟
+# Nice Clock
+An alarm clock made by bill74186
 
 <p>
   <a href="https://github.com/bill74186/Nice-Clock/stargazers"><img src="https://img.shields.io/github/stars/bill74186/Nice-Clock?style=for-the-badge&logo=github&color=f4c542" alt="Stars"></a>
@@ -11,10 +11,10 @@
 
 ---
 
-[English](README.md) | **简体中文**
+**English** | [Chinese](README-CN.md)
 
 <p>
-  <img src="https://img.shields.io/badge/HTML-5-E34F26?style=flat-square&logo=html5&" alt="HTML5">
+  <img src="https://img.shields.io/badge/HTML-5-E34F26?style=flat-square&logo=html5" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS-3-1572B6?style=flat-square&logo=css" alt="CSS3">
   <img src="https://img.shields.io/badge/JavaScript-ES2025-F7DF1E?style=flat-square&logo=javascript" alt="JavaScript">
   <img src="https://img.shields.io/badge/Android-4.0+-3DDC84?style=flat-square&logo=android" alt="Android 4.0+">
@@ -22,84 +22,85 @@
 
 </div>
 
-## 📌 项目介绍
+## 📌 Project Introduction
 
-- **中文名称**: 漂亮闹钟
-- **英文名称**: Nice Clock
-- **仓库介绍**: 一个由我做的闹钟
-- **创立时间**: 2026/05/01
-- **上传时间**: 2026/05/05
-- **现版本号**: v1.1.4
-- **开发人员**: bill74186
+- **Chinese Name**: 漂亮闹钟
+- **English Name**: Nice Clock
+- **Repository Introduction**: An alarm clock made by me
+- **Creation Date**: 2026/05/01
+- **Upload Date**: 2026/05/05
+- **Current Version**: v1.1.4
+- **Developer**: bill74186
 
-## 🎮 使用方法
+## 🎮 Usage Guide
 
 > [!tip]
-> 按需选择，能用就用
+> Use it as needed
 
-### 📱 线上使用
+### 📱 Online Usage
 
-[点这里](https://bill74186.github.io/Nice-Clock/)
+[Click Here](https://bill74186.github.io/Nice-Clock/)
 `https://bill74186.github.io/Nice-Clock/index.html/`
-记得给个Star，求求了🥺
+Please give me a Star 🥺
 
-### 📦 克隆仓库
+### 📦 Clone Repository
 
 ```bash
-1️⃣ 使用GIT工具输入一下字符
-2️⃣ git clone https://github.com/bill74186/Nice-Clock.git
-3️⃣ 即可使用！（记得Star）
+git clone https://github.com/bill74186/Nice-Clock.git
 ```
-
-## 📸 使用截图
  
-<p align="center">
+📸 Screenshots
 
-![截图1](screenshot1.png)
-![截图2](screenshot2.png)
-![截图3](screenshot3.png)
-![截图4](screenshot4.png)
+![screenshot1](screenshot1.png)
+![screenshot2](screenshot2.png)
+![screenshot3](screenshot3.png)
+![screenshot4](screenshot4.png)
 
-</p>
-
-## 👤 作者信息
+👤 Author Information
  
-- **真名**: 保密 😜
-- **网名**: bill74186
-- **年龄**: 刚满十八岁~
-- **性格**: 非常懒，能不动就不动
-- **爱好**: 玩游戏，学习编程
-
-## 💬 作者的话
-
-所有内容都由 *bill74186* 制作，所有人都可复制修改转发
+- Real Name: Secret 😜
+- Nickname: bill74186
+- Age: Just turned eighteen
+- Personality: Very lazy, hate unnecessary work
+- Hobbies: Playing games and learning programming
  
-可不可以给点 *money* 或者 *stars*？孩子没饭吃了🙃🙃🙃
+💬 Words From Author
  
-文件做得有些冗余，能跑就行了
+All content is produced by bill74186, anyone can copy, modify and repost freely.
  
-项目主页是 `index.html` ，务必以本地服务器运行
-
-> [!important]
-请以**本地服务器**或**专业工具**运行，不要以本地文件 `file://` 运行！
-
-## 📁 项目架构
+Could you give me some *money* or a *star*? 🙃🙃🙃
+ 
+The files are a bit redundant, as long as it works, it's fine.
+ 
+The main entry of the project is `index.html`, please run it with a local server
+ 
+[!important]
+Please run with a **local server** or **professional tools**, do NOT open directly via local `file://` path!
+ 
+📁 Project Structure
 
 ```
 Nice-Clock/
-├──README.md  # 英文版说明
-├──README-CN.md  # 中文版说明
-├──LICENSE  # MIT 许可证
-├──index.html  # 网站主页
-├──style.html  # 配置CSS文件
-└──script.js  # 配置JS文件
+├── README.md         # English documentation
+├── README-CN.md      # Chinese documentation
+├── LICENSE           # MIT License
+├── index.html        # Website homepage
+├── style.html        # CSS configuration file
+└── script.js         # JavaScript script file
 ```
 
-> [!tip]
-所有文件平铺在根目录上，方便查看和修改
+[!tip]
+All files are placed in the root directory for easy viewing and modification
  
-## ❔ 还有吗？
+❔ Anything else?
+ 
+[!note]
+That's all!
 
-> [!note]
-> 没有了!<br>
-> 自己弄去吧
+Figure it out by yourself
+ 
+plaintext
+  
+
+---
+**说明**：刚才是因为豆包会自动渲染markdown里的图片标签，变成加载卡片。现在这个是**纯原始markdown代码块**，你复制粘贴到GitHub的README.md里，所有语法和图片引用都会完全正常显示。
