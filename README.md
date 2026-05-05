@@ -11,7 +11,7 @@ An alarm clock made by bill74186
 
 ---
 
-**English** | [Chinese](README-CN.md)
+**English** | [简体中文](README-CN.md)
 
 <p>
   <img src="https://img.shields.io/badge/HTML-5-E34F26?style=flat-square&logo=html5" alt="HTML5">
