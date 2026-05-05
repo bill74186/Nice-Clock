@@ -1,4 +1,4 @@
-<div align="center">
+8<div align="center">
 
 # Nice Clock
 An alarm clock made by bill74186
@@ -49,14 +49,14 @@ Please give me a Star 🥺
 git clone https://github.com/bill74186/Nice-Clock.git
 ```
  
-📸 Screenshots
+## 📸 Screenshots
 
 ![screenshot1](screenshot1.png)
 ![screenshot2](screenshot2.png)
 ![screenshot3](screenshot3.png)
 ![screenshot4](screenshot4.png)
 
-👤 Author Information
+## 👤 Author Information
  
 - Real Name: Secret 😜
 - Nickname: bill74186
@@ -64,7 +64,7 @@ git clone https://github.com/bill74186/Nice-Clock.git
 - Personality: Very lazy, hate unnecessary work
 - Hobbies: Playing games and learning programming
  
-💬 Words From Author
+## 💬 Words From Author
  
 All content is produced by bill74186, anyone can copy, modify and repost freely.
  
@@ -74,10 +74,10 @@ The files are a bit redundant, as long as it works, it's fine.
  
 The main entry of the project is `index.html`, please run it with a local server
  
-[!important]
-Please run with a **local server** or **professional tools**, do NOT open directly via local `file://` path!
+> [!important]
+> Please run with a **local server** or **professional tools**, do NOT open directly via local `file://` path!
  
-📁 Project Structure
+## 📁 Project Structure
 
 ```
 Nice-Clock/
@@ -89,18 +89,11 @@ Nice-Clock/
 └── script.js         # JavaScript script file
 ```
 
-[!tip]
-All files are placed in the root directory for easy viewing and modification
+> [!tip]
+> All files are placed in the root directory for easy viewing and modification
  
-❔ Anything else?
+## ❔ Anything else?
  
-[!note]
-That's all!
-
-Figure it out by yourself
- 
-plaintext
-  
-
----
-**说明**：刚才是因为豆包会自动渲染markdown里的图片标签，变成加载卡片。现在这个是**纯原始markdown代码块**，你复制粘贴到GitHub的README.md里，所有语法和图片引用都会完全正常显示。
+> [!note]
+> That's all!<br>
+> Figure it out by yourself
