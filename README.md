@@ -1,4 +1,4 @@
-8<div align="center">
+<div align="center">
 
 # Nice Clock
 An alarm clock made by bill74186
