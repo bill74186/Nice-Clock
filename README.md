@@ -40,7 +40,7 @@ An alarm clock made by bill74186
 ### 📱 Online Usage
 
 [Click Here](https://bill74186.github.io/Nice-Clock/)
-`https://bill74186.github.io/Nice-Clock/index.html/`
+`https://bill74186.github.io/Nice-Clock/`
 Please give me a Star 🥺
 
 ### 📦 Clone Repository

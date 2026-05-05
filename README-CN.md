@@ -40,7 +40,7 @@
 ### 📱 线上使用
 
 [点这里](https://bill74186.github.io/Nice-Clock/)
-`https://bill74186.github.io/Nice-Clock/index.html/`
+`https://bill74186.github.io/Nice-Clock/`
 记得给个Star，求求了🥺
 
 ### 📦 克隆仓库
