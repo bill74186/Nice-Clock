@@ -90,9 +90,14 @@ Nice-Clock/
 ├──README.md  # 英文版说明
 ├──README-CN.md  # 中文版说明
 ├──LICENSE  # MIT 许可证
+├──screenshot1.png  # 第一张截图
+├──screenshot2.png  # 第二张截图
+├──screenshot3.png  # 第三张截图
+├──screenshot4.png  # 第四张截图
 ├──index.html  # 网站主页
 ├──style.html  # 配置CSS文件
 └──script.js  # 配置JS文件
+
 ```
 
 > [!tip]

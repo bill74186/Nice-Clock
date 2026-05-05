@@ -81,12 +81,16 @@ The main entry of the project is `index.html`, please run it with a local server
 
 ```
 Nice-Clock/
-├── README.md         # English documentation
-├── README-CN.md      # Chinese documentation
-├── LICENSE           # MIT License
-├── index.html        # Website homepage
-├── style.html        # CSS configuration file
-└── script.js         # JavaScript script file
+├── README.md  # English documentation
+├── README-CN.md  # Chinese documentation
+├── LICENSE  # MIT License
+├── screenshot1.png  # No.1 Screenshot
+├── screenshot2.png  # No.2 Screenshot
+├── screenshot3.png  # No.3 Screenshot
+├── screenshot4.png  # No.4 Screenshot
+├── index.html  # Website homepage
+├── style.html  # CSS configuration file
+└── script.js  # JavaScript script file
 ```
 
 > [!tip]
