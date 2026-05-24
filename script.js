@@ -7,39 +7,39 @@ const set = document.querySelector(".set");
 const menu = document.querySelector("menu");
 
 formatBtn.addEventListener("click", () => {
-    formatBtn.classList.toggle("active");
-    formatBtn.dataset.f = formatBtn.dataset.f == 12 ? 24 : 12;
+	formatBtn.classList.toggle("active");
+	formatBtn.dataset.f = formatBtn.dataset.f == 12 ? 24 : 12;
 });
 
 lightBtn.addEventListener("click", () => {
-    lightBtn.classList.toggle("active");
-    document.body.classList.toggle("light");
+	lightBtn.classList.toggle("active");
+	document.body.classList.toggle("light");
 });
 
 hideBtn.addEventListener("click", () => {
-    hideBtn.classList.toggle("active");
-    gh.classList.toggle("hide");
-    set.classList.toggle("hide");
+	hideBtn.classList.toggle("active");
+	gh.classList.toggle("hide");
+	set.classList.toggle("hide");
 });
 
 function clock() {
-    const t = new Date();
-    let h = t.getHours();
-    let m = t.getMinutes();
-    let s = t.getSeconds();
-    let ap = "AM";
+	const t = new Date();
+	let h = t.getHours();
+	let m = t.getMinutes();
+	let s = t.getSeconds();
+	let ap = "AM";
 
-    if (h >= 12) ap = "PM";
-    if (formatBtn.dataset.f == 12) h = h % 12 || 12;
+	if (h >= 12) ap = "PM";
+	if (formatBtn.dataset.f == 12) h = h % 12 || 12;
 
-    h = h.toString().padStart(2, "0");
-    m = m.toString().padStart(2, "0");
-    s = s.toString().padStart(2, "0");
+	h = h.toString().padStart(2, "0");
+	m = m.toString().padStart(2, "0");
+	s = s.toString().padStart(2, "0");
 
-    document.querySelector(".h").textContent = h;
-    document.querySelector(".m").textContent = m;
-    document.querySelector(".ap").textContent = ap;
-    document.querySelector(".s").textContent = s;
+	document.querySelector(".h").textContent = h;
+	document.querySelector(".m").textContent = m;
+	document.querySelector(".ap").textContent = ap;
+	document.querySelector(".s").textContent = s;
 }
 
 setInterval(clock, 1000);
@@ -52,11 +52,24 @@ document.getElementById("da").textContent = today.getDate();
 document.getElementById("w").textContent = today.toLocaleString("default", { weekday: "long" });
 
 set.addEventListener("click", () => {
-    menu.classList.toggle("active");
+	menu.classList.toggle("active");
 });
 
 document.addEventListener("click", (e) => {
-    if (!e.target.closest(".set, .item")) {
-        menu.classList.remove("active");
-    }
+	if (!e.target.closest(".set, .item")) {
+		menu.classList.remove("active");
+	}
 });
+
+function updateFavicon() {
+	const isLight = document.body.classList.contains('light');
+	const favicon = document.querySelector('link[rel="icon"]');
+	
+	if (favicon) {
+		favicon.href = isLight ? 'favicon.ico' : 'favicon-dark.ico';
+	}
+}
+
+updateFavicon();
+
+lightBtn.addEventListener('click', updateFavicon);
